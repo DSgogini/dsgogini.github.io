@@ -22,7 +22,7 @@ subtitle                 : "d:\\> ds gogini" # site tagline that appears below s
 name                     : "Dinesh Singh Gogini"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : / # the subpath of your site, e.g. "/blog"
 repository               : "DSgogini/ds-gogini" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -217,7 +217,7 @@ kramdown:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
 # Outputting
